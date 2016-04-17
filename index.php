@@ -21,19 +21,19 @@
 	</div>
 	<h1 class="titulo">Nuestro Productos</h1>
 	<div class="row">
-		<div class="bloque1" data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
+		<div class="bloque1 bloque-productos" data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
 			<div class="cir"></div>
 			<h2>Impresión POP</h2>
 			<div class="line"></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla a ex finibus euismod. Aenean in iaculis dolor. Maecenas ullamcorper nisl sed vehicula ullamcorper. Etiam eu gravida dolor. Nunc congue sed nisi et fermentum. Aenean eleifend erat facilisis nisi tristique vehicula.</p>
 		</div>
-		<div class="bloque2"  data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
+		<div class="bloque2 bloque-productos"  data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
 			<div class="cir"></div>
 			<h2>Ferias</h2>
 			<div class="line"></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla a ex finibus euismod. Aenean in iaculis dolor. Maecenas ullamcorper nisl sed vehicula ullamcorper. Etiam eu gravida dolor. Nunc congue sed nisi et fermentum. Aenean eleifend erat facilisis nisi tristique vehicula.</p>
 		</div>
-		<div class="bloque3"  data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
+		<div class="bloque3 bloque-productos"  data-scroll-reveal="enter left after 0.15s over 1s" data-sr-init="true" data-sr-complete="true">
 			<div class="cir"></div>
 			<h2>Marketing</h2>
 			<div class="line"></div>
@@ -93,7 +93,6 @@
 					Nam facilisis nulla fermentum eros gravida, dictum lacinia arcu pulvinar.
 					Praesent placerat euismod elit, ac vestibulum mauris tincidunt a.
 					Suspendisse sagittis, nunc sed accumsan malesuada, tortor massa suscipit neque, sed posuere leo ante nec augue.
-
 				</p> 
 			</div>
 			<div class="bloque8 bloque-text" >
@@ -143,7 +142,6 @@
 			<div class="clear"></div>
 		</div>
 	</div>
-
 	<footer> 
 		<p>© Latin Canadian Media</p>
 	</footer>

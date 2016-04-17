@@ -326,4 +326,60 @@ footer {
     margin: 0;
     padding-top: 5px; }
 
+/* Responsive By Rosangela+ */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  body {
+    width: 100%; }
+    body .video iframe {
+      width: 100% !important; }
+    body .video .header ul {
+      margin: 0; }
+      body .video .header ul li a {
+        padding: 20px; }
+    body .row {
+      width: 100%;
+      height: auto; }
+      body .row .bloque-productos {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto; }
+    body .row2 {
+      width: 100%;
+      height: auto; }
+      body .row2 .row-image {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto; }
+    body .row3 {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+      body .row3 .bloque-seccion {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        margin-top: 20px; }
+    body .row4 {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+      body .row4 .bloque-text {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        margin-top: 20px; }
+      body .row4 .fondo-green img.img-abouts {
+        height: auto; }
+    body .logo-lcm img {
+      height: auto;
+      width: 100%; } }
+
 /*# sourceMappingURL=styles.css.map */

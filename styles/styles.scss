@@ -373,3 +373,92 @@ footer{
         padding-top: 5px;
     }
 }
+
+/* Responsive By Rosangela+ */
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+    body{
+        width: 100%;
+    
+        .video{
+            iframe{
+                width: 100% !important;
+                
+            }
+            .header{
+                ul{
+                    margin:0;
+                    li{
+                       a{
+                        padding: 20px;
+                       } 
+                    }
+                }
+            }
+        }
+        .row{
+            width: 100%;
+            height: auto;
+
+            .bloque-productos{
+                display: block;
+                float: none;
+                width: 100%;
+                margin:0;
+                height: auto;
+            }
+            
+        }
+        .row2{
+            width: 100%;
+            height: auto;
+            .row-image{
+                display: block;
+                float: none;
+                width: 100%;
+                margin:0;
+                height: auto;
+
+            }
+        }
+         .row3{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            .bloque-seccion{
+                display: block;
+                float: none;
+                width: 100%;
+                margin:0;
+                height: auto;
+                margin-top: 20px;
+           } 
+        }
+        .row4{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            .bloque-text{
+                 display: block;
+                float: none;
+                width: 100%;
+                margin:0;
+                height: auto;
+                margin-top: 20px;
+            }
+        .fondo-green{
+                img.img-abouts{
+                   height: auto;
+                }
+            }
+         }
+        .logo-lcm{
+            img{ 
+                height: auto;
+                width: 100%;
+                
+            }
+        }
+    }
+}
