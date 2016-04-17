@@ -331,7 +331,8 @@ footer {
   body {
     width: 100%; }
     body .video iframe {
-      width: 100% !important; }
+      width: 100% !important;
+      height: auto; }
     body .video .header ul {
       margin: 0; }
       body .video .header ul li a {
