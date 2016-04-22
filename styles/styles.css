@@ -277,6 +277,13 @@ h2 {
   text-align: center;
   color: #808080; }
 
+.header {
+  z-index: 9999; }
+  .header ul li {
+    display: inline-block;
+    margin: 0;
+    float: none; }
+
 .row4 {
   position: relative; }
   .row4 .bloques {
@@ -326,17 +333,72 @@ footer {
     margin: 0;
     padding-top: 5px; }
 
-/* Responsive By Rosangela+ */
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+/* Responsive para tablets By Rosangela */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
   body {
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    width: 100% !important; }
+    body .titulo {
+      margin-top: 20%; }
     body .video iframe {
       width: 100% !important;
       height: auto; }
-    body .video .header ul {
-      margin: 0; }
-      body .video .header ul li a {
-        padding: 20px; }
+    body .clear {
+      clear: both; }
+    body .logo-lcm {
+      position: absolute;
+      margin-top: -50%;
+      width: 81%;
+      height: auto; }
+      body .logo-lcm img {
+        height: auto;
+        margin-left: -20%;
+        width: 100%;
+        padding: 0px;
+        height: 300%; }
+    body .row2 {
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      height: 400px;
+      margin-top: 10%;
+      background-color: #fff;
+      clear: both; }
+    body img.row-image {
+      width: 31%;
+      height: 300px;
+      margin-top: 3%;
+      padding: 8px;
+      float: left; }
+    body .bloque-text {
+      margin: 2% 1%;
+      height: 242px;
+      width: 25.3%; }
+    body .fondo-green {
+      height: 600px; } }
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+  body {
+    position: relative;
+    width: 100% !important; }
+    body .titulo {
+      margin-top: 20%; }
+    body .video iframe {
+      width: 100% !important;
+      height: auto; }
+    body .clear {
+      clear: both; }
+    body .logo-lcm {
+      position: absolute;
+      margin-top: -75%;
+      width: 80%;
+      height: auto; }
+      body .logo-lcm img {
+        height: auto;
+        margin-left: -20%;
+        width: 100%;
+        padding: 0px;
+        height: 300%; }
     body .row {
       width: 100%;
       height: auto; }
@@ -352,7 +414,7 @@ footer {
       body .row2 .row-image {
         display: block;
         float: none;
-        width: 100%;
+        width: 97%;
         margin: 0;
         height: auto; }
     body .row3 {
@@ -373,14 +435,164 @@ footer {
       body .row4 .bloque-text {
         display: block;
         float: none;
+        width: 90%;
+        margin: 0;
+        height: auto; }
+      body .row4 .fondo-green {
+        height: 900px; }
+        body .row4 .fondo-green img.img-abouts {
+          height: none;
+          width: 100%; } }
+/* Responsive Moviles By Rosangela+ */
+@media only screen and (max-width: 730px) and (orientation: landscape) {
+  body {
+    position: relative;
+    width: 100% !important; }
+    body .titulo {
+      margin-top: 2%; }
+    body .video {
+      height: 450px;
+      width: 100%; }
+      body .video iframe {
+        width: 100% !important;
+        height: auto;
+        max-height: 8%; }
+      body .video .video-texture {
+        height: auto;
+        width: 100%; }
+    body .clear {
+      clear: both; }
+    body .logo-lcm {
+      position: absolute;
+      margin-top: -55%;
+      width: 80%;
+      height: auto;
+      padding-left: 6px; }
+      body .logo-lcm img {
+        height: auto;
+        margin-left: -20%;
+        width: 100%;
+        padding: 0px;
+        height: 300%; }
+    body .row {
+      width: 100%;
+      height: auto; }
+      body .row .bloque-productos {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto; }
+    body .row2 {
+      width: 100%;
+      height: auto; }
+      body .row2 .row-image {
+        display: block;
+        float: none;
+        width: 97%;
+        margin: 0;
+        height: auto; }
+    body .row3 {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+      body .row3 .bloque-seccion {
+        display: block;
+        float: none;
         width: 100%;
         margin: 0;
         height: auto;
         margin-top: 20px; }
-      body .row4 .fondo-green img.img-abouts {
-        height: auto; }
-    body .logo-lcm img {
+    body .row4 {
+      width: 100%;
       height: auto;
-      width: 100%; } }
+      margin: 0; }
+      body .row4 .bloque-text {
+        display: block;
+        float: none;
+        width: 90%;
+        margin: 0;
+        height: auto; }
+      body .row4 .fondo-green {
+        height: 900px; }
+        body .row4 .fondo-green img.img-abouts {
+          height: none;
+          width: 100%; } }
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  body {
+    position: relative;
+    width: 100%; }
+    body .video iframe {
+      width: 100% !important;
+      height: auto;
+      max-height: 13.5%; }
+    body .video .header {
+      width: 100% !important;
+      float: none; }
+      body .video .header ul {
+        margin: 0; }
+        body .video .header ul li {
+          display: inline-block;
+          float: none; }
+          body .video .header ul li a {
+            padding: 18px; }
+    body .row {
+      width: 100%;
+      height: auto; }
+      body .row .bloque-productos {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto; }
+    body .row2 {
+      width: 100%;
+      height: auto; }
+      body .row2 .row-image {
+        display: block;
+        float: none;
+        width: 94%;
+        margin: 0;
+        height: auto; }
+    body .row3 {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+      body .row3 .bloque-seccion {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        margin-top: 20px; }
+    body .row4 {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+      body .row4 .bloque-text {
+        display: block;
+        float: none;
+        width: 90%;
+        margin: 0;
+        height: auto; }
+      body .row4 .fondo-green {
+        height: 1170px; }
+        body .row4 .fondo-green img.img-abouts {
+          height: none;
+          width: 100%; }
+    body .logo-lcm {
+      position: absolute;
+      margin-top: -107%; }
+      body .logo-lcm img {
+        height: auto;
+        width: 97%;
+        padding: 0px;
+        height: 300%;
+        margin: 0 auto; }
+    body .video-texture {
+      height: 40px;
+      width: 100%; }
+    body footer {
+      margin-top: 60px; } }
 
 /*# sourceMappingURL=styles.css.map */
